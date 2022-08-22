@@ -16,11 +16,11 @@ a {
 
 /* background-colors*/
 header {
-    background-color: #C1D5A4;
+    background-color: #A62349;
 }
 
-#rome {
-    background-color: #224B0C;
+#home {
+    background-color: #D07000;
 }
 
 #venice {
@@ -65,23 +65,34 @@ header {
     margin: 5% 5%;
 }
 
-/* rome section */
-#rome {
+/* home section */
+#home {
     height: 100vh;
 }
 
-#rome img {
-    float: left;
-    max-width: 50vw;
-    max-height: 50vh;
-    margin: 5% 3%;
+#home .image {
+    float: right;
+    max-width: 60vw;
+    max-height: 60vh;
+    margin: 8% 3%;
 }
 
-#rome p {
+#home .image img {
+    max-width: 60vw;
+    max-height: 60vh;
+    margin: 0% 3%;
+}
+
+#home .image p {
+    color: white;
+    margin: 0% 0% 0% 25%;
+}
+
+#home .title {
     float: left;
-    width: 40vw;
+    width: 30vw;
     height: 50vh;
-    margin: 5% 0;
+    margin: 20% 3%;
     text-align: justify;
     color: white;
 }
