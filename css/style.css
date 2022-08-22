@@ -1,0 +1,144 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
+main p {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* background-colors*/
+header {
+    background-color: #C1D5A4;
+}
+
+#rome {
+    background-color: #224B0C;
+}
+
+#venice {
+    background-color: #F0F2B6;
+}
+
+#portofino {
+    background-color: #AC4425;
+}
+
+
+/* navbar */
+#navbar {
+    height: 100vh;
+}
+
+#navbar .menu {
+    float: left;
+    max-width: 70%;
+    max-height: 30%;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+#navbar ul li a:hover {
+    cursor: url("/img/avion.png"), pointer ;
+}
+
+#navbar .logo img {
+    float: right;
+    max-width: 30vw;
+    max-height: 30vh;
+    margin: 5% 5%;
+}
+
+/* rome section */
+#rome {
+    height: 100vh;
+}
+
+#rome img {
+    float: left;
+    max-width: 50vw;
+    max-height: 50vh;
+    margin: 5% 3%;
+}
+
+#rome p {
+    float: left;
+    width: 40vw;
+    height: 50vh;
+    margin: 5% 0;
+    text-align: justify;
+    color: white;
+}
+
+/* venice section */
+#venice {
+    height: 100vh;
+}
+#venice img {
+    float: right;
+    max-width: 50vw;
+    max-height: 50vh;
+    margin: 5% 3%;
+}
+
+#venice p {
+    float: right;
+    width: 40vw;
+    height: 50vh;
+    margin: 5% 0;
+    text-align: justify;
+}
+
+/* portofino section */
+#portofino {
+    height: 100vh;
+}
+
+#portofino img {
+    float: left;
+    max-width: 50vw;
+    max-height: 50vh;
+    margin: 5% 3%;
+}
+
+#portofino p {
+    float: left;
+    width: 40vw;
+    height: 50vh;
+    margin: 5% 0;
+    text-align: justify;
+    color: white;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    padding: 5px;
+    margin: 0 5px; 
+    
+}
+/*
+#contact h2 {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+*/
